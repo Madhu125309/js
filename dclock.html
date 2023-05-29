@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>digital clock</title>
+</head>
+<body>
+    <h3>Digital clock -Example using -HTML,JS and Bootstrap</h3>
+    <p id="dclock"></p>
+</body>
+<script>
+    setInterval(() => {
+        
+    
+        let ct = new Date().toLocaleTimeString();
+        document.getElementById('dclock').innerHTML = ct
+    },1000)
+</script>
+</html>
